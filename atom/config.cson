@@ -1,0 +1,28 @@
+"*":
+  "activate-power-mode":
+    particles:
+      size:
+        min: 1
+      spawnCount: {}
+    screenShake:
+      enabled: false
+      maxIntensity: 1
+  "autocomplete-ruby": {}
+  autosave:
+    enabled: true
+  core:
+    disabledPackages: [
+      "vim-mode"
+      "linter-ruby"
+    ]
+    projectHome: "/Users/dnelson"
+  editor:
+    fontSize: 13
+  "exception-reporting":
+    userId: "7b4ba604-8fa3-77b6-5bb8-d9ff7ecdc60f"
+  "file-types":
+    hdbs: "text.html.mustache"
+  linter:
+    showErrorPanel: false
+  welcome:
+    showOnStartup: false

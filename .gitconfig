@@ -1,0 +1,24 @@
+[alias]
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(cyan)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+	co = checkout
+	com = checkout master
+	amend = commit --amend -C HEAD
+	amendm = commit --amend # amend with message
+	st = status
+	ci = commit
+	br = branch
+	df = diff
+	dc = diff --cached
+	ls = ls-files
+[user]
+	email = dnelson@zendesk.com
+	name = Damian Nelson
+[core]
+	editor = /usr/local/bin/vim
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
+[merge]
+	tool = opendiff
