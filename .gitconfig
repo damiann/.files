@@ -7,10 +7,12 @@
 	amendm = commit --amend # amend with message
 	st = status
 	ci = commit
+	cim = commit -m
 	br = branch
 	df = diff
 	dc = diff --cached
 	ls = ls-files
+	uncommit = reset --soft HEAD^
 [user]
 	email = dnelson@zendesk.com
 	name = Damian Nelson
